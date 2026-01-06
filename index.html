@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Personal Website</title>
+  <meta name="description" content="Personal website of Your Name — short bio, projects, and contact." />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Your Name</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <h2>Hello — I'm Your Name</h2>
+      <p class="lead">I build things — software engineer, open-source contributor, and problem solver. I focus on web apps, performance, and developer tools.</p>
+      <p class="links">
+        <a class="btn" href="#projects">View projects</a>
+        <a class="btn ghost" href="#contact">Contact me</a>
+      </p>
+      <p class="social">
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> •
+        <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener">Twitter</a> •
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </section>
+
+    <section id="about">
+      <h3>About</h3>
+      <p>Short paragraph about you. Talk about what you build, your interests, and what you're currently working on.</p>
+    </section>
+
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4><a href="https://example.com/project1" target="_blank" rel="noopener">Project One</a></h4>
+          <p>Short description of project one. Tech used, short outcome, link to repo or demo.</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://example.com/project2" target="_blank" rel="noopener">Project Two</a></h4>
+          <p>Short description of project two. Tech used, short outcome, link to repo or demo.</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://example.com/project3" target="_blank" rel="noopener">Project Three</a></h4>
+          <p>Short description of project three. Tech used, short outcome, link to repo or demo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>If you'd like to get in touch: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Your Name — Built with HTML & CSS</small>
+    </div>
+  </footer>
+
+  <script>
+    // small script to update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
